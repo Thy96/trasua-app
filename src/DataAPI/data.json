@@ -1,0 +1,52 @@
+[
+    {
+        "createdAt": "2022-10-19T06:10:28.128Z",
+        "name": "Troy Herzog",
+        "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/485.jpg",
+        "products": [
+            {
+                "id": 1,
+                "name": "Ô Long Xoài Kem Cà Phê",
+                "description": "Đây là trà ô long",
+                "url": "https://tocotocotea.com/wp-content/uploads/2022/06/O-Long-xoai-kem-coffee.jpg",
+                "price": 31000,
+                "selectSize": [
+                    {
+                        "size": "M",
+                        "priceSize": 31000
+                    },
+                    {
+                        "size": "L",
+                        "priceSize": 40000
+                    },
+                    {
+                        "size": "XL",
+                        "priceSize": 50000
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Trà Xoài Bưởi Hồng",
+                "description": "Đây là Trà Xoài Bưởi Hồng",
+                "url": "https://tocotocotea.com/wp-content/uploads/2022/04/trà-xoài-bưởi-hồng.png",
+                "price": 38000,
+                "selectSize": [
+                    {
+                        "size": "M",
+                        "priceSize": 38000
+                    },
+                    {
+                        "size": "L",
+                        "priceSize": 48000
+                    },
+                    {
+                        "size": "XL",
+                        "priceSize": 58000
+                    }
+                ]
+            }
+        ],
+        "id": "1"
+    }
+]
