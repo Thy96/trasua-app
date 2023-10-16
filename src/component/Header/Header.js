@@ -23,7 +23,15 @@ function Header({ callbackToken, callbackUserID, setShowPopUpCart, setShowPopUpO
     const [showPopUpLogin, setShowPopUpLogin] = useState(false)
     const [toggle, setToggle] = useState(false)
 
+    if (localStorage.getItem("list_products") == null) {
+        setTimeout(() => {
+            window.location.reload(false);
+            window.localStorage.setItem('list_products', JSON.stringify([]));
+        }, 1);
+    }
+
     let countItemOnLocalStore = JSON.parse(localStorage.getItem("list_products"));
+
     let token = localStorage.getItem('Token')
     let user = JSON.parse(localStorage.getItem('User')) || null
     const boxStyle = {
@@ -38,13 +46,12 @@ function Header({ callbackToken, callbackUserID, setShowPopUpCart, setShowPopUpO
         setShowPopUpLogin(false)
     }
 
-    const logOutAccount = () => {
-        localStorage.removeItem('Token');
-        window.location.reload(false);
-    }
+    // const logOutAccount = () => {
+    //     localStorage.removeItem('Token');
+    //     window.location.reload(false);
+    // }
 
     useEffect(() => {
-
         callbackToken(token)
         callbackUserID(user?.id)
     }, [token, user, countItemOnLocalStore])
@@ -73,14 +80,14 @@ function Header({ callbackToken, callbackUserID, setShowPopUpCart, setShowPopUpO
                                         Trang Chủ
                                     </a>
                                 </li>
-                                <li
+                                {/* <li
                                     id="menu-item-1271"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1262 current_page_item menu-item-1271"
                                 >
                                     <a onClick={token ? () => logOutAccount() : () => setShowPopUpLogin(true)}>
                                         {token ? 'Đăng Xuất' : 'Đăng Nhập'}
                                     </a>
-                                </li>
+                                </li> */}
                                 <li
                                     id="menu-item-1271"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1262 current_page_item menu-item-1271 icon"

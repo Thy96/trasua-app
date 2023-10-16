@@ -38,7 +38,6 @@ function ProductList({ data, loading, category, value, handleChange, showPopUpCa
         setShowPopUpOrder(false)
     }
 
-
     return (
         <>
             <Box sx={{ width: '100%', typography: 'body1' }}>

@@ -23,6 +23,7 @@ function ProductCart({ showPopUpCart, closePopupCart, value }) {
     const [priceItem, setPriceItem] = useState(0)
     const [totalPrice, setTotalPrice] = useState(0)
 
+
     // Set count ID customer
     const initialCount = () => Number(window.localStorage.getItem('count'));
     const [count, setCount] = useState(initialCount);
