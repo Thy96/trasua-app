@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trasua-app/static/css/main.88b833e0.css",
-    "main.js": "/trasua-app/static/js/main.3c9684d3.js",
+    "main.js": "/trasua-app/static/js/main.62980ad5.js",
     "static/js/787.056d4ae2.chunk.js": "/trasua-app/static/js/787.056d4ae2.chunk.js",
     "static/media/banner3.jpg": "/trasua-app/static/media/banner3.f25ce14769b29a3f9f9d.jpg",
     "static/media/banner1.jpg": "/trasua-app/static/media/banner1.e5fd9ec77670724c5f30.jpg",
@@ -23,11 +23,11 @@
     "index.html": "/trasua-app/index.html",
     "static/media/ic_scoll.webp": "/trasua-app/static/media/ic_scoll.6c9306948c5c8c92e303.webp",
     "main.88b833e0.css.map": "/trasua-app/static/css/main.88b833e0.css.map",
-    "main.3c9684d3.js.map": "/trasua-app/static/js/main.3c9684d3.js.map",
+    "main.62980ad5.js.map": "/trasua-app/static/js/main.62980ad5.js.map",
     "787.056d4ae2.chunk.js.map": "/trasua-app/static/js/787.056d4ae2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88b833e0.css",
-    "static/js/main.3c9684d3.js"
+    "static/js/main.62980ad5.js"
   ]
 }
