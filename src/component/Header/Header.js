@@ -87,7 +87,7 @@ function Header({ callbackToken, callbackUserID, setShowPopUpCart, setShowPopUpO
                                 >
                                     <button onClick={() => setShowPopUpCart(true)}>
                                         <ShoppingCartOutlinedIcon sx={boxStyle} />
-                                        {/* {countItemOnLocalStore.length > 0 ? <span>{countItemOnLocalStore.length}</span> : ''} */}
+                                        {countItemOnLocalStore.length > 0 ? <span>{countItemOnLocalStore.length}</span> : ''}
                                     </button>
                                 </li>
                                 <li
