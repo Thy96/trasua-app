@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/trasua-app/static/css/main.88b833e0.css",
+    "main.js": "/trasua-app/static/js/main.3c9684d3.js",
+    "static/js/787.056d4ae2.chunk.js": "/trasua-app/static/js/787.056d4ae2.chunk.js",
+    "static/media/banner3.jpg": "/trasua-app/static/media/banner3.f25ce14769b29a3f9f9d.jpg",
+    "static/media/banner1.jpg": "/trasua-app/static/media/banner1.e5fd9ec77670724c5f30.jpg",
+    "static/media/banner2.jpg": "/trasua-app/static/media/banner2.06c2ecf045ec5046c829.jpg",
+    "static/media/loading.gif": "/trasua-app/static/media/loading.3a3a5392d64ea0d30f5c.gif",
+    "static/media/MilkTealogoAGL.png": "/trasua-app/static/media/MilkTealogoAGL.629a2b7e8b8b965d15ce.png",
+    "static/media/qr_momo.jpg": "/trasua-app/static/media/qr_momo.c6aa1b7d30185999ea98.jpg",
+    "static/media/MilkTealogoAGL-head.png": "/trasua-app/static/media/MilkTealogoAGL-head.41aed23b2094c9fedd2b.png",
+    "static/media/img_cart.png": "/trasua-app/static/media/img_cart.5ae8468cf590c1ac0ee4.png",
+    "static/media/img_history.png": "/trasua-app/static/media/img_history.6d2c77402da3d0381195.png",
+    "static/media/button_delivery.webp": "/trasua-app/static/media/button_delivery.af0633bd6c516d1664d6.webp",
+    "static/media/logo.svg": "/trasua-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/united-kingdom.svg": "/trasua-app/static/media/united-kingdom.4839cec4896b3141f334c06fe07d863c.svg",
+    "static/media/slick.svg": "/trasua-app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/trasua-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/trasua-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/trasua-app/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/vietnam.svg": "/trasua-app/static/media/vietnam.5e8684f5244061aeb6f83dfb2a1e6f8c.svg",
+    "index.html": "/trasua-app/index.html",
+    "static/media/ic_scoll.webp": "/trasua-app/static/media/ic_scoll.6c9306948c5c8c92e303.webp",
+    "main.88b833e0.css.map": "/trasua-app/static/css/main.88b833e0.css.map",
+    "main.3c9684d3.js.map": "/trasua-app/static/js/main.3c9684d3.js.map",
+    "787.056d4ae2.chunk.js.map": "/trasua-app/static/js/787.056d4ae2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88b833e0.css",
+    "static/js/main.3c9684d3.js"
+  ]
+}
