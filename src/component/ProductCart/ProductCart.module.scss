@@ -61,6 +61,8 @@
             text-align: left;
             p{
                 margin-bottom: 0;
+                display: flex;
+                justify-content: space-between;
             }
         }
     }

@@ -61,7 +61,7 @@ function Header({ callbackToken, callbackUserID, setShowPopUpCart, setShowPopUpO
         <>
             <header id="header-wrap">
                 <div id="header" className="container">
-                    <a className="logo" href="/">
+                    <a className="logo" href="/trasua-app/">
                         <img className="logo-img" src={images.logohead} alt="logo" />
                     </a>
                     <div className="menu">
@@ -76,7 +76,7 @@ function Header({ callbackToken, callbackUserID, setShowPopUpCart, setShowPopUpO
                                     id="menu-item-1271"
                                     className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1262 current_page_item menu-item-1271"
                                 >
-                                    <a href="/">
+                                    <a href="/trasua-app/">
                                         Trang Chủ
                                     </a>
                                 </li>

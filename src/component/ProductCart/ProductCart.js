@@ -78,7 +78,7 @@ function ProductCart({ showPopUpCart, closePopupCart, value }) {
         }
 
         const priceItem = tempArr.map((arr) => arr.price)
-        const totalPrice = tempArr.reduce((a, c) => a + (c.price * c.qty) + c.totalTopping, 0)
+        const totalPrice = tempArr.reduce((a, c) => a + (c.price + c.totalTopping) * c.qty, 0)
         setPriceItem(priceItem)
         setTotalPrice(totalPrice)
     }
@@ -153,7 +153,7 @@ function ProductCart({ showPopUpCart, closePopupCart, value }) {
             const jsonProductLocal = JSON.stringify(productCart)
             localStorage.setItem('list_products', jsonProductLocal)
         }
-        window.localStorage.setItem('count', count);
+        window.localStorage.setItem('number_of_orders_purchased', count);
 
     }, [productCart, count])
 
@@ -194,7 +194,7 @@ function ProductCart({ showPopUpCart, closePopupCart, value }) {
                                                     <dd className={cx("content-flex-note")}>
                                                         Size: {item.selectedSize} <br />
                                                         {item.selectedTopping.length > 0 ? <>Topping: {item.selectedTopping.map(size => (
-                                                            <p>- {size.name}</p>
+                                                            <p><span>- {size.name}</span> <span>{size.price.toLocaleString()}đ</span></p>
                                                         ))}</> : ""
                                                         }
                                                     </dd>
